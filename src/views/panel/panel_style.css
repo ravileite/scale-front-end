@@ -1,0 +1,43 @@
+.panel-page {
+    margin: 0px;
+    display: grid;
+    height: 100vh;
+    background-color: #F5F5F5;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        150px
+        1fr;
+    grid-template-areas:
+        "header"
+        "panel-content"
+}
+
+.menu{
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: -2em;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "card-img "
+}
+
+header.header {
+    grid-area: header;
+}
+
+main.content {
+    background-color: #F5F5F5;
+    grid-area: panel-content;
+}
+
+.button{
+    width: 250px;
+}
+
+.menu-text{
+    font-weight: bold;
+}

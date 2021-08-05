@@ -1,0 +1,27 @@
+.user-card{
+    justify-items: left;
+    align-items: center;
+    box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+	height: 120px;
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
+.card-img{
+    max-width: 100px;
+    max-height: 120px;
+}
+
+.card-text{
+    font-size: 18px;
+}
