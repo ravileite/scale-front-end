@@ -1,40 +1,25 @@
 header.header {
+    display: flex;
     height: 100px;
     overflow: hidden;
     padding: 0px 10px;
     background: linear-gradient(180deg, #0F2027 0%, #2c5364 100%);
     justify-content: center;
+    justify-items: center;
 }
 
-.info{
-    margin-top: 5px;
-    float: left;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-   
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
 }
 
-.image{
-    width: 60px;
-    height: 60px;
-    margin-bottom: -15px;
-    align-self: center;
-    justify-self: center;
-}
-
-.header-right {
-    float: right;
-  }
-
-.name{
-    align-self: center;
-    font-weight: bold;
-}
-
-.logout{
-    margin-top: 70px;
-    float: right;
-    font-weight: bold;
+.menu-options{
+    color: #FFF;
     cursor: pointer;
+}
+
+.menu-options:hover{
+    text-decoration: underline;
 }
