@@ -17,7 +17,7 @@ export default function Panel() {
     const [menu, setMenu] = useState('USERS')
 
     useEffect(() => {
-        getUsers()
+        if (menu === 'USERS') getUsers()
         if (menu === 'COUNTRIES') getCountries()
     }, [page, menu])
 
